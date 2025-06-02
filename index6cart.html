@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive tour  and travel agency websites design tutorial</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="index.js"></script>
+</head>
+<body>
+    <body class="bg-white text-black tracking-wider">
+        <header class="sticky top-0 z-50 bg-gray-200 shadow-lg">
+            <nav id="nav" class="container flex justify-between items-center">
+                <a href="#"><img src="Cara.png" class="h-20 pt-5"></a>
+                <div>
+                    <ul id="menu" class="flex space-x-4 items-center lg:space-x-6" >
+                        <li><a href="index.html" class="hover:text-green-600 ease-in duration-200 hover:underline" >Home</a></li>
+                        <li><a href="#features" class="hover:text-green-600 ease-in duration-200 hover:underline">Shop</a></li>
+                        <li><a href="#blog" class="hover:text-green-600 ease-in duration-200 hover:underline active">Blog</a></li>
+                        <li><a href="#about" class="hover:text-green-600 ease-in duration-200 hover:underline">About</a></li>
+                        <li><a href="index5contact.html" class="hover:text-green-600 ease-in duration-200 hover:underline">Contact</a></li>
+                        <li><a href="#shopping bag"><i class="fa-solid fa-cart-shopping text-green-600"></i></a></li>    
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section id="about-header" class="text-center">
+            <div class="bg-[url('b_images.jpg')] bg-center bg-slate-600 h-64 w-full bg-no-repeat bg-fixed bg-cover bg-opacity-55">
+            <h2 class=" font-bold text-2xl lg:text-4xl blur-none pt-20 lg:pt-24 text-white mb-5">#cart</h2>
+            <p class="font-semibold text-xl lg:text-2xl text-fuchsia-300">Add your coupon code & SAVE upto 70%!</p>
+        </div>
+    </section>
+
+    <header id="cart" class="mt-14 overflow-x-auto">
+        <table class="w-full border-collapse table-fixed whitespace-nowrap">
+            <thead class="border border-1 border-slate-300 border-r-0 border-l-0 text-sm font-bold">
+                <tr class="">
+                    <td class="w-32 items-center lg:px-20 px-8">REMOVE</td>
+                    <td class="w-40 items-center lg:px-9 px-3">IMAGES</td>
+                    <td class="w-56 items-center lg:px-9 px-3">PRODUCT</td>
+                    <td class="w-32 items-center lg:px-9 px-3">PRICE</td>
+                    <td class="w-32 items-center -ml-2 lg:px-9 px-3">QUANTITY</td>
+                    <td class="w-40 items-center lg:px-9 px-3">SUBTOTAL</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="w-32 items-center lg:px-24 px-10"><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td class="w-40 items-center lg:px-10 px-3 pt-4"><img class="w-24 -ml-5" src="Shirt1.jpg" alt=""></td>
+                    <td class="w-56 items-center">Cartoon Astronaut T-Shirts</td>
+                    <td class="w-32 items-center -ml-5 lg:px-8 px-4">$118.19</td>
+                    <td class=" items-center lg:px-10 px-5"><input type="number" class="px-1 py-1 border border-1 border-gray-900 mb-2 h-10 w-10 ml-3" placeholder="1"> </td>
+                    <td class="w-40 items-center -ml-3 lg:px-10 px-5">$118.19</td>
+                </tr>
+
+                <tr>
+                    <td class="w-32 items-center lg:px-24 px-10"><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td class="w-40 items-center lg:px-10 px-3 pt-4"><img class="w-24 -ml-5" src="Shirt2.jpg" alt=""></td>
+                    <td class="w-56 items-center">Cartoon Astronaut T-Shirts</td>
+                    <td class="w-32 items-center -ml-5 lg:px-8 px-4">$130.00</td>
+                    <td class=" items-center lg:px-10 px-5"><input type="number" class="px-1 py-1 border border-1 border-gray-900 mb-2 h-10 w-10 ml-3" placeholder="1"> </td>
+                    <td class="w-40 items-center -ml-3 lg:px-10 px-5">$130.00</td>
+                </tr>
+
+                <tr>
+                    <td class="w-32 items-center lg:px-24 px-10"><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td class="w-40 items-center lg:px-10 px-3 pt-4"><img class="w-24 -ml-5" src="S11.jpg" alt=""></td>
+                    <td class="w-56 items-center">Cartoon Astronaut T-Shirts</td>
+                    <td class="w-32 items-center -ml-5 lg:px-8 px-4">$125.15</td>
+                    <td class=" items-center lg:px-10 px-5"><input type="number" class="px-1 py-1 border border-1 border-gray-900 mb-2 h-10 w-10 ml-3" placeholder="1"> </td>
+                    <td class="w-40 items-center -ml-3 lg:px-10 px-5">$125.15</td>
+                </tr>
+            </tbody>
+        </table>
+    </header>
+
+    <section id="cart-add" class="mt-14 lg:pl-10 lg:flex">
+        <div id="coupon" class="lg:mx-44 mx-10">
+            <h3 class="font-bold text-2xl lg:text-3xl pb-4 text-black">Apply Coupon</h3>
+            <div>
+                <input class="border border-1 border-gray-600 text-black rounded-sm rounded-r-none h-8 lg:w-60 w-72" type="text" placeholder=" Enter Your Coupon ">
+                <button class="bg-cyan-700 text-white rounded-sm rounded-l-none left-2 p-1 px-3 hover:shadow-md hover:bg-cyan-900 hover:text-gray-50">Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal" class=" mb-5 border border-1 border-gray-300 px-14 lg:w-2/5 py-4 mt-10 lg:mt-0">
+            <h3 class="font-bold text-lg mb-3">Cart Totals</h3>
+            <table class="border-collapse w-96 mb-10">
+            <tr>
+                <td class="w-28 border borcer-1 border-gray-300 p-1">Cart Subtotal</td>
+                <td class="w-28 border borcer-1 border-gray-300 p-1">$ 335</td>
+            </tr>
+            <tr>
+                <td class="w-28 border borcer-1 border-gray-300 p-1">Shipping</td>
+                <td class="w-28 border borcer-1 border-gray-300 p-1">Free</td>
+            </tr>
+            <tr class="font-bold">
+                <td class="w-28 border borcer-1 border-gray-300 p-1">Total</td>
+                <td class="w-28 border borcer-1 border-gray-300 p-1">$ 335</td>
+            </tr>
+            </table>
+            <button class="normal-case bg-cyan-700 text-white rounded-sm rounded-l-none py-1 px-3 -mt-2 hover:bg-cyan-900 hover:text-gray-50 hover:shadow-md">Proceed to checkout</button>
+        </div>
+    </section>
+
+            
+        
+       
+    <footer>
+        <div class="bg-gray-200 mt-14 pb-10 pt-10 lg:flex">
+            <div class="lg:block">
+            <img class="h-20 pt-5 ml-9" src="Cara.png" alt="">
+            <h4 class="font-bold mx-8 p-1 pr-5 text-lg">Contact</h4>
+            <p class="mx-10 p-1 text-lg"><b>Address: </b>562 Wellington Road, Street 32, San Francisco</p>
+            <p class="mx-10 p-1 text-lg"><b>Phone: </b>+01 2222 365 /(+91) 01 2345 6789</p>
+            <p class="mx-10 p-1 text-lg"><b>Hours: </b>10:00 - 18:00, Mon - Sat</p>
+            <div class="mx-10 p-1">
+                <h4 class="font-bold">Follow Us</h4>
+                    <i class="fa-brands fa-facebook-f duration-300 cursor-pointer"></i>
+                    <i class="fa-brands fa-x-twitter duration-300 cursor-pointer text-base"></i>
+                    <i class="fa-brands fa-instagram duration-300 cursor-pointer"></i>
+                    <i class="fa-brands fa-linkedin-in duration-300 cursor-pointer"></i>
+                </div>
+            </div>
+
+        <div class="mt-12 ml-10 lg:ml-0 lg:mr-10">
+            <h4 class="font-bold text-lg p-1">About</h4>
+            <a href="#" class="p-1">About Us</a>
+            <a href="#" class="block p-1">Delivery Information</a>
+            <a href="#" class="block p-1">Privacy Policy</a>
+            <a href="#" class="block p-1">Terms & Conditions</a>
+            <a href="#" class="block p-1">Contact Us</a>
+        </div>
+        
+        <div class="mt-12 ml-10 lg:ml-0 lg:mr-14">
+            <h4 class="font-bold text-lg p-1">My Account</h4>
+            <a href="#" class="p-1">Sign In</a>
+            <a href="#" class="block p-1">View Cart</a>
+            <a href="#" class="block p-1">My Wishlist</a>
+            <a href="#" class="block p-1">Track Ny Order</a>
+            <a href="#" class="block p-1">Help</a>
+        </div>
+
+        <div class="mt-12 ml-10 lg:ml-0 ">
+            <h4 class="font-bold text-lg p-1">Install App</h4>
+            <a href="#" class="p-1">From App Store or Google Play</a>
+            <div class="flex">
+                <a href="#" class="h-16 w-44 rounded-lg hover:opacity-70 block p-1">
+                    <img class="border border-1 border-black rounded-md" src="IMG_4.png" alt="">
+                </a>
+
+                <a href="#" class="h-16 w-44 rounded-lg hover:opacity-70 block p-1">
+                    <img class="border border-1 border-black rounded-md" src="IMG_5.png" alt="">
+                </a>
+            </div>
+            <a href="#" class="block p-1">Secured Payment Gateways</a>
+            </div>
+        </div>
+
+        <div class="flex-center bg-gray-200 text-gray-950 pt-1 pb-10">
+            <p class="text-center mt-10 opacity-50">Copyright &copy;" 2025, Tech2 - HTML CSS Ecommerce Template</p>
+        </div>
+       
+    </footer>
+    <script src="index.js"></script>      
+</body>
+    
+</html>

@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="index.js"></script>
+</head>
+<body>
+    <body class="bg-white text-black tracking-wider">
+        <header class="sticky top-0 z-50 bg-gray-200 shadow-lg">
+            <nav class="container flex justify-between items-center">
+                <a href="#"><img src="Cara.png" class="h-20 pt-5"></a>
+                <div id="navbar">
+                    <ul class="flex space-x-4 items-center lg:space-x-6" >
+                        <li><a href="#home" class="text-green-600 ease-in duration-200 hover:underline" >Home</a></li>
+                        <li><a href="index1shop.html" class="hover:text-green-600 ease-in duration-200 hover:underline">Shop</a></li>
+                        <li><a href="index3blog.html" class="hover:text-green-600 ease-in duration-200 hover:underline">Blog</a></li>
+                        <li><a href="index4about.html" class="hover:text-green-600 ease-in duration-200 hover:underline">About</a></li>
+                        <li><a href="index5contact.html" class="hover:text-green-600 ease-in duration-200 hover:underline">Contact</a></li>
+                        <li><a href="index6cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>    
+                    </ul>
+                </div>
+
+            </nav>
+        </header>
+
+        <section id="home" class="relative bg-gray-100">
+            <div class="container py-20">
+                <div class="flex flex-col items-center z-20 md:flex-row">
+                    <div class="text-center mb-12 md:text-left md:w-1/2 md:pr-10">
+                        <h4 class="text-2xl lg:text-3xl font-semibold mx-10">Trade-in-offer</h4>
+                        <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold mx-10">Super value deals</h2><!--leading-snug line height-->
+                        <h1 class="text-green-700 font-bold lg:text-4xl md:text-2xl text-3xl mx-10 leading-snug">On all products</h1>
+                        <p class="leading-relaxed mx-10 font-bold mb-5 text-lg md:text-xl lg:text-2xl">Save more with coupons % up to 70% off!</p>
+                        <button class="bg-orange-300 text-green-700 px-9 py-3 rounded-md capitalize font-bold hover:opacity-80 ease-in duration-200 mx-10 mb-5">Shop Now</button>
+                    </div>
+
+                    <div class="md:w-1/2">
+                        <img class="items-center h-80 w-80  lg:ml-36 bg-cover opacity-80 z-30" src="shopping.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="bg-white py-20 pl-10 flex pr-10">
+            <div class="w-80 h-80 bg-slate-700 absolute top-96 -z-10 mx-96 blur-2xl opacity-30 overflow-hidden rounded-full  "></div>
+
+            <div class="grid lg:grid-cols-6 md:grid-cols-3 grid-cols-2 mx-5 gap-6 lg:gap-4 px-4 sm:px-6 lg:px-4">
+             <div class="border border-1 border-gray-600 p-3 rounded-xl shadow-2xl lg:shadow-xl">
+                 <img class="w-48 h-44 lg:w-44 lg:h-36"src="1.jpg" alt="">
+                 <h6 class=" font-bold lg:mt-10 text-center py-1 lg:py-2 mt-3 bg-pink-200 text-green-950 rounded-xl border border-pink-400">Free Shiping</h6>
+            </div>
+
+            <div class="border border-1 border-gray-600 p-3 rounded-xl shadow-2xl lg:shadow-xl">
+                <img class="w-48 h-44 lg:w-44 lg:h-36" src="4.jpg" alt="">
+                <h6 class=" font-bold text-center py-1 lg:mt-10 mt-3 lg:pb-2 lg:pt-2 md:pt-3 bg-green-300 text-green-950 rounded-xl border border-green-900">Online Order</h6>
+           </div>
+
+           <div class="border border-1 border-gray-600 p-3 rounded-xl shadow-2xl lg:shadow-xl">
+                <img class="w-48 h-44 lg:w-44 lg:h-36" src="3.jpg" alt="">
+                <h6 class=" font-bold text-center bg-blue-200 text-green-950 rounded-xl border border-blue-400 mt-2 lg:mt-10 py-1 lg:py-2">Save Money</h6>
+           </div>
+
+           <div class="border border-1 border-gray-600 p-3 rounded-xl shadow-2xl lg:shadow-xl">
+                <img class="w-48 h-44 lg:w-44 lg:h-36" src="6.jpg" alt="">
+                <h6 class=" font-bold text-center py-1 mt-2 lg:py-2 lg:mt-10 bg-orange-200 text-green-950 rounded-xl border border-orange-400">Promotions</h6>
+           </div>
+
+           <div class="border border-1 border-gray-600 p-3 rounded-xl shadow-2xl lg:shadow-xl">
+                <img class="w-48 h-44 lg:w-44 lg:h-36" src="2.jpg" alt="">
+                <h6 class=" font-bold text-center py-1 lg:py-2 mt-2 lg:mt-10 bg-purple-200 text-green-950 rounded-xl border border-purple-400">Happy Sell</h6>
+           </div>
+
+           <div class="border border-1 border-gray-600 p-3 rounded-xl shadow-2xl lg:shadow-xl">
+                <img class="w-48 h-44 lg:w-44 lg:h-36" src="5.jpg" alt="">
+                <h6 class=" font-bold text-center py-1 mt-2 lg:mt-10 lg:py-2 bg-amber-200 text-green-950 rounded-xl border border-amber-400">F 24/7 Support</h6>
+           </div>
+        
+        </div>
+    </section>
+
+        <section id="product1">
+                 <h1 class="font-bold text-4xl text-center leading-snug">Featured Products</h1>
+                 <p class="leading-relaxed mx-10 font-medium mb-5 text-center text-lg">Summer Collection New Morden Design</p>
+                 <div class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 mx-5 gap-6 lg:gap-4 px-4 sm:px-6 lg:px-4">
+                    <div class="border border-1 border-gray-600 p-3 rounded-xl shadow-2xl lg:shadow-xl cursor-pointer relative">
+                        <img class="rounded-xl hover:ease-in hover:transition-shadow lg:h-72" src="Shirt1.jpg" alt="">
+                        <div class="description text-start">
+                            <span class="font-normal text-gray-500">adidas</span>
+                            <h5 class="text-lg font-semibold">Cartoon Astronaut T-shirts</h5>
+                            <div class="star text-yellow-500">
+                                <i class="fa-solid fa-star"></i> 
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <h4 class="text-green-800">$78</h4>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-cart-shopping rounded-full bg-slate-100 text-green-700 hover:bg-green-700 hover:text-white border-1 p-2 border-slate-600 absolute left-36 lg:left-64 bottom-2"></i></a>   
+                </div>
+
+                <div class="border border-1 border-gray-600 p-3 rounded-xl shadow-2xl lg:shadow-xl cursor-pointer relative">
+                    <img class="rounded-xl hover:ease-in hover:transition-shadow lg:h-72" src="Shirt2.jpg" alt="">
+                    <div class="description text-start">
+                        <span class="font-normal text-gray-500">adidas</span>
+                        <h5 class="text-lg font-semibold">Cartoon Astronaut T-shirts</h5>
+                        <div class="star text-yellow-500">
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h4 class="text-green-800">$78</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping rounded-full bg-slate-100 text-green-700 hover:bg-green-700 hover:text-white border-1 p-2 border-slate-600 absolute left-36 lg:left-64 bottom-2"></i></a>   
+                </div>
+
+                <div class="border border-1 border-gray-600 p-3 rounded-xl shadow-2xl lg:shadow-xl cursor-pointer relative">
+                    <img class="rounded-xl hover:ease-in hover:transition-shadow lg:h-72 lg:w-80" src="S11.jpg" alt="">
+                    <div class="description text-start">
+                        <span class="font-normal text-gray-500">adidas</span>
+                        <h5 class="text-lg font-semibold">Cartoon Astronaut T-shirts</h5>
+                        <div class="star text-yellow-500">
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h4 class="text-green-800">$78</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping rounded-full bg-slate-100 text-green-700 hover:bg-green-700 hover:text-white border-1 p-2 border-slate-600 absolute left-36 lg:left-64 bottom-2"></i></a>   
+                </div>
+
+                <div class="border border-1 border-gray-600 p-3 rounded-xl shadow-2xl lg:shadow-xl cursor-pointer relative">
+                    <img class="rounded-xl hover:ease-in hover:transition-shadow lg:h-72 lg:w-80" src="S14.jpg" alt="">
+                    <div class="description text-start">
+                        <span class="font-normal text-gray-500">adidas</span>
+                        <h5 class="text-lg font-semibold">Cartoon Astronaut Shirts</h5>
+                        <div class="star text-yellow-500">
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h4 class="text-green-800">$78</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping rounded-full bg-slate-100 text-green-700 hover:bg-green-700 hover:text-white border-1 p-2 border-slate-600 absolute left-36 lg:left-64 bottom-2"></i></a>   
+                </div>
+
+                <div class="border border-1 border-gray-600 p-3 rounded-xl shadow-2xl lg:shadow-xl cursor-pointer relative">
+                    <img class="rounded-xl hover:ease-in hover:transition-shadow lg:h-72 lg:w-80" src="Shirt5.jpg" alt="">
+                    <div class="description text-start">
+                        <span class="font-normal text-gray-500">adidas</span>
+                        <h5 class="text-lg font-semibold">Cartoon Astronaut T-shirts</h5>
+                        <div class="star text-yellow-500">
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h4 class="text-green-800">$78</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping rounded-full bg-slate-100 text-green-700 hover:bg-green-700 hover:text-white border-1 p-2 border-slate-600 absolute left-36 lg:left-64 bottom-2"></i></a>   
+                </div>
+
+                <div class="border border-1 border-gray-600 p-3 rounded-xl shadow-2xl lg:shadow-xl cursor-pointer relative">
+                    <img class="rounded-xl hover:ease-in hover:transition-shadow lg:h-72 lg:w-80" src="Shirt9.jpg" alt="">
+                    <div class="description text-start">
+                        <span class="font-normal text-gray-500">adidas</span>
+                        <h5 class="text-lg font-semibold">Astronaut Women Top</h5>
+                        <div class="star text-yellow-500">
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h4 class="text-green-800">$100</h4>
+                    </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping rounded-full bg-slate-100 text-green-700 hover:bg-green-700 hover:text-white border-1 p-2 border-slate-600 absolute left-36 lg:left-64 bottom-2"></i></a>   
+                </div>
+
+               <div class="border border-1 border-gray-600 p-3 rounded-xl shadow-2xl lg:shadow-xl cursor-pointer relative">
+                    <img class="rounded-xl hover:ease-in hover:transition-shadow lg:h-72 lg:w-80" src="Shirt7.jpg" alt="">
+                    <div class="description text-start">
+                        <span class="font-normal text-gray-500">adidas</span>
+                        <h5 class="text-lg font-semibold">Cartoon Astronaut T-shirts</h5>
+                        <div class="star text-yellow-500">
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    <h4 class="text-green-800">$125</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping rounded-full bg-slate-100 text-green-700 hover:bg-green-700 hover:text-white border-1 p-2 border-slate-600 absolute left-36 lg:left-64 bottom-2"></i></a>   
+                </div>
+
+                <div class="border border-1 border-gray-600 p-3 rounded-xl shadow-2xl lg:shadow-xl cursor-pointer relative">
+                    <img class="rounded-xl hover:ease-in hover:transition-shadow lg:h-72 lg:w-80" src="Shirt10.jpg" alt="">
+                    <div class="description text-start">
+                        <span class="font-normal text-gray-500">adidas</span>
+                        <h5 class="text-lg font-semibold">Astronaut Night Pant</h5>
+                        <div class="star text-yellow-500">
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    <h4 class="text-green-800">$200</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping rounded-full bg-slate-100 text-green-700 hover:bg-green-700 hover:text-white border-1 p-2 border-slate-600 absolute left-36 lg:left-64 bottom-2"></i></a>   
+                </div>
+        </div>
+        </section>
+        
+    <section id="banner" class="text-center mt-20">
+        <div class="bg-[url('bg.jpg')] bg-center bg-slate-600 h-64 w-full bg-no-repeat bg-fixed bg-cover">
+        <h4 class=" font-semibold text-lg blur-none pt-20 lg:pt-24">Repair Services</h4>
+        <h2 class="font-bold text-2xl lg:text-3xl text-black">Up to <span class="text-red-600 text-3xl lg:text-4xl">70% Off</span> - All T-Shirts & Accessories</h2>
+        <button class="bg-white text-black font-semibold text-xl cursor cursor-pointer rounded-lg outline-none transition-shadow hover:bg-cyan-500 hover:text-black p-2 mt-2">Explore More</button>
+    </div>
+    </section>
+
+    <section id="arrival" class="bg-white mt-16">
+        <h1 class="font-bold text-4xl text-center leading-snug">New Arrivals</h1>
+        <p class="leading-relaxed mx-10 font-medium mb-5 text-center text-lg">Summer Collection New Morden Design</p>
+        <div class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 mx-5 gap-6 lg:gap-4 px-4 sm:px-6 lg:px-4">
+            <div class="border border-1 border-gray-600 p-3 rounded-xl shadow-2xl lg:shadow-xl cursor-pointer relative">
+                <img class="rounded-xl hover:ease-in hover:transition-shadow lg:h-72 lg:w-80" src="S1.jpg" alt="">
+                <div class="description text-start">
+                    <span class="font-normal text-gray-500">adidas</span>
+                    <h5 class="text-lg font-semibold">Cartoon Astronaut Shirts</h5>
+                    <div class="star text-yellow-500">
+                        <i class="fa-solid fa-star"></i> 
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4 class="text-green-800">$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping rounded-full bg-slate-100 text-green-700 hover:bg-green-700 hover:text-white border-1 p-2 border-slate-600 absolute left-36 lg:left-64 bottom-2"></i></a>   
+        </div>
+
+        <div class="border border-1 border-gray-600 p-3 rounded-xl shadow-2xl lg:shadow-xl cursor-pointer relative">
+            <img class="rounded-xl hover:ease-in hover:transition-shadow lg:h-72 h-56" src="S2.jpg" alt="">
+            <div class="description text-start">
+                <span class="font-normal text-gray-500">adidas</span>
+                <h5 class="text-lg font-semibold">Cartoon Astronaut Shirts</h5>
+                <div class="star text-yellow-500">
+                    <i class="fa-solid fa-star"></i> 
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h4 class="text-green-800">$78</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping rounded-full bg-slate-100 text-green-700 hover:bg-green-700 hover:text-white border-1 p-2 border-slate-600 absolute left-36 lg:left-64 bottom-2"></i></a>   
+        </div>
+
+        <div class="border border-1 border-gray-600 p-3 rounded-xl shadow-2xl lg:shadow-xl cursor-pointer relative">
+            <img class="rounded-xl hover:ease-in hover:transition-shadow lg:h-72 lg:w-80" src="S3.jpg" alt="">
+            <div class="description text-start">
+                <span class="font-normal text-gray-500">adidas</span>
+                <h5 class="text-lg font-semibold">Cartoon Astronaut Shirts</h5>
+                <div class="star text-yellow-500">
+                    <i class="fa-solid fa-star"></i> 
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h4 class="text-green-800">$78</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping rounded-full bg-slate-100 text-green-700 hover:bg-green-700 hover:text-white border-1 p-2 border-slate-600 absolute left-36 lg:left-64 bottom-2"></i></a>   
+        </div>
+
+        <div class="border border-1 border-gray-600 p-3 rounded-xl shadow-2xl lg:shadow-xl cursor-pointer relative">
+            <img class="rounded-xl hover:ease-in hover:transition-shadow lg:h-72 lg:w-80" src="S4.jpg" alt="">
+            <div class="description text-start">
+                <span class="font-normal text-gray-500">adidas</span>
+                <h5 class="text-lg font-semibold">Astronaut Summer Pant</h5>
+                <div class="star text-yellow-500">
+                    <i class="fa-solid fa-star"></i> 
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h4 class="text-green-800">$78</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping rounded-full bg-slate-100 text-green-700 hover:bg-green-700 hover:text-white border-1 p-2 border-slate-600 absolute left-36 lg:left-64 bottom-2"></i></a>   
+        </div>
+
+        <div class="border border-1 border-gray-600 p-3 rounded-xl shadow-2xl lg:shadow-xl cursor-pointer relative">
+            <img class="rounded-xl hover:ease-in hover:transition-shadow lg:h-72 lg:w-80 h-56" src="S5.jpg" alt="">
+            <div class="description text-start">
+                <span class="font-normal text-gray-500">adidas</span>
+                <h5 class="text-lg font-semibold">Cartoon Astronaut Shirts</h5>
+                <div class="star text-yellow-500">
+                    <i class="fa-solid fa-star"></i> 
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h4 class="text-green-800">$78</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping rounded-full bg-slate-100 text-green-700 hover:bg-green-700 hover:text-white border-1 p-2 border-slate-600 absolute left-36 lg:left-64 bottom-2"></i></a>   
+        </div>
+
+        <div class="border border-1 border-gray-600 p-3 rounded-xl shadow-2xl lg:shadow-xl cursor-pointer relative">
+            <img class="rounded-xl hover:ease-in hover:transition-shadow lg:h-72 lg:w-80" src="S6.jpg" alt="">
+            <div class="description text-start">
+                <span class="font-normal text-gray-500">adidas</span>
+                <h5 class="text-lg font-semibold">Cartoon Astronaut Shirts</h5>
+                <div class="star text-yellow-500">
+                    <i class="fa-solid fa-star"></i> 
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h4 class="text-green-800">$100</h4>
+            </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping rounded-full bg-slate-100 text-green-700 hover:bg-green-700 hover:text-white border-1 p-2 border-slate-600 absolute left-36 lg:left-64 bottom-2"></i></a>   
+        </div>
+
+       <div class="border border-1 border-gray-600 p-3 rounded-xl shadow-2xl lg:shadow-xl cursor-pointer relative">
+            <img class="rounded-xl hover:ease-in hover:transition-shadow lg:h-72 lg:w-80 h-56" src="S7.jpg" alt="">
+            <div class="description text-start">
+                <span class="font-normal text-gray-500">adidas</span>
+                <h5 class="text-lg font-semibold">Cartoon Astronaut Shirts</h5>
+                <div class="star text-yellow-500">
+                    <i class="fa-solid fa-star"></i> 
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            <h4 class="text-green-800">$125</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping rounded-full bg-slate-100 text-green-700 hover:bg-green-700 hover:text-white border-1 p-2 border-slate-600 absolute left-36 lg:left-64 bottom-2"></i></a>   
+        </div>
+
+        <div class="border border-1 border-gray-600 p-3 rounded-xl shadow-2xl lg:shadow-xl cursor-pointer relative">
+            <img class="rounded-xl hover:ease-in hover:transition-shadow lg:h-72 lg:w-80" src="S8.jpg" alt="">
+            <div class="description text-start">
+                <span class="font-normal text-gray-500">adidas</span>
+                <h5 class="text-lg font-semibold">Cartoon Astranaut Shirt</h5>
+                <div class="star text-yellow-500">
+                    <i class="fa-solid fa-star"></i> 
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            <h4 class="text-green-800">$200</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping rounded-full bg-slate-100 text-green-700 hover:bg-green-700 hover:text-white border-1 p-2 border-slate-600 absolute left-36 lg:left-64 bottom-2"></i></a>   
+        </div>
+    </div>
+    </section>
+
+    <section id="banner" class="bg-white flex justify-center items-center min-h-screen">
+        <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 w-full px-10">
+            <!-- First Banner -->
+            <div class="relative w-full md:w-1/2">
+                <img src="BA.jpg" alt="Banner 1" class="w-full h-auto object-cover opacity-60">
+                <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-center p-4">
+                    <h4 class="text-2xl font-semibold">crazy deals</h4>
+                    <h2 class="text-4xl font-bold">buy 1 get 1 free</h2>
+                    <span class="text-2xl font-medium">The best classic dress is on sale at cara</span>
+                    <button class="mt-2 px-4 py-2 text-white rounded-lg border border-1 border-white hover:bg-cyan-900 font-semibold text-xl">Learn More</button>
+                </div>
+            </div>
+            
+            <!-- Second Banner -->
+            <div class="relative w-full md:w-1/2">
+                <img src="bg--img.jpg" alt="Banner 2" class="w-full h-auto object-cover opacity-60">
+                <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-center p-4">
+                    <h4 class="text-2xl font-semibold">spring/summer</h4>
+                    <h2 class="text-3xl font-bold">Upcomming Summer</h2>
+                    <span class="text-2xl font-medium">The best classic dress is on sale at cara</span>
+                    <button class="mt-2 px-4 py-2 text-white rounded-lg border border-1 border-white hover:bg-cyan-900 font-semibold text-xl">Collection</button>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <section id="banner1" class="flex justify-center items-center bg-white lg:-mt-24 md:mt-12 mt-5">
+          <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 w-full px-10">
+            <!-- First Banner -->
+            <div class="relative w-full md:w-1/3">
+                <img src="SALE.jpg" alt="Banner 1" class="w-full h-auto rounded-lg object-cover">
+                <div class="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 text-white text-center p-4">
+                    <h2 class="text-3xl font-bold">SEASONAL SALE</h2>
+                    <h3 class="text-2xl font-semibold text-red-600">Winter Collection -50% OFF</h3>
+                </div>
+            </div>
+            
+            <!-- Second Banner -->
+            <div class="relative w-full md:w-1/3">
+                <img src="SALE1.jpg" alt="Banner 2" class="w-full h-auto rounded-lg object-cover">
+                <div class="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 text-white text-center p-4">
+                    <h4 class="text-3xl font-bold">NEW FOOTWEAR COLLECTION</h4>
+                    <h2 class="text-2xl font-semibold text-red-600">spring/summer 2025</h2>
+                </div>
+            </div>
+            
+            <!-- Third Banner -->
+            <div class="relative w-full md:w-1/3">
+                <img src="SALE2.jpg" alt="Banner 3" class="w-full h-auto rounded-lg object-cover">
+                <div class="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 text-white text-center p-4">
+                    <h4 class="text-3xl font-bold">T-SHIRTS</h4>
+                    <h2 class="text-2xl font-semibold text-red-600">New Trendy Prints</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter">
+        <div class="bg-slate-950 mt-14 h-48 lg:h-40 w-full text-center pt-12 text-white">
+            <div class="lg:text-left lg:ml-10">
+            <h4 class="text-xl font-bold">Sign Up For Newsletters</h4>
+            <p class="text-lg font-semibold text-slate-500">Get E-mail updates about our latest shop and <span class="text-yellow-500">special offers.</span></p>
+            </div>
+            <div class="lg:text-right lg:mr-10 lg:-mt-10">
+            <input type="text" class="text-black rounded-sm rounded-r-none h-8 lg:w-60" placeholder=" Your email address">
+            <button class="p-1 bg-cyan-700 text-white rounded-sm rounded-l-none left-2">Sign Up</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="bg-gray-200 mt-14 pb-10 pt-10 lg:flex">
+            <div class="lg:block">
+            <img class="h-20 pt-5 ml-9" src="Cara.png" alt="">
+            <h4 class="font-bold mx-8 p-1 pr-5 text-lg">Contact</h4>
+            <p class="mx-10 p-1 text-lg"><b>Address: </b>562 Wellington Road, Street 32, San Francisco</p>
+            <p class="mx-10 p-1 text-lg"><b>Phone: </b>+01 2222 365 /(+91) 01 2345 6789</p>
+            <p class="mx-10 p-1 text-lg"><b>Hours: </b>10:00 - 18:00, Mon - Sat</p>
+            <div class="mx-10 p-1">
+                <h4 class="font-bold">Follow Us</h4>
+                    <i class="fa-brands fa-facebook-f duration-300 cursor-pointer"></i>
+                    <i class="fa-brands fa-x-twitter duration-300 cursor-pointer text-base"></i>
+                    <i class="fa-brands fa-instagram duration-300 cursor-pointer"></i>
+                    <i class="fa-brands fa-linkedin-in duration-300 cursor-pointer"></i>
+                </div>
+            </div>
+
+        <div class="mt-12 ml-10 lg:ml-0 lg:mr-10">
+            <h4 class="font-bold text-lg p-1">About</h4>
+            <a href="#" class="p-1">About Us</a>
+            <a href="#" class="block p-1">Delivery Information</a>
+            <a href="#" class="block p-1">Privacy Policy</a>
+            <a href="#" class="block p-1">Terms & Conditions</a>
+            <a href="#" class="block p-1">Contact Us</a>
+        </div>
+        
+        <div class="mt-12 ml-10 lg:ml-0 lg:mr-14">
+            <h4 class="font-bold text-lg p-1">My Account</h4>
+            <a href="#" class="p-1">Sign In</a>
+            <a href="#" class="block p-1">View Cart</a>
+            <a href="#" class="block p-1">My Wishlist</a>
+            <a href="#" class="block p-1">Track Ny Order</a>
+            <a href="#" class="block p-1">Help</a>
+        </div>
+
+        <div class="mt-12 ml-10 lg:ml-0 ">
+            <h4 class="font-bold text-lg p-1">Install App</h4>
+            <a href="#" class="p-1">From App Store or Google Play</a>
+            <div class="flex">
+                <a href="#" class="h-16 w-44 rounded-lg hover:opacity-70 block p-1">
+                    <img class="border border-1 border-black rounded-md" src="IMG_4.png" alt="">
+                </a>
+
+                <a href="#" class="h-16 w-44 rounded-lg hover:opacity-70 block p-1">
+                    <img class="border border-1 border-black rounded-md" src="IMG_5.png" alt="">
+                </a>
+            </div>
+            <a href="#" class="block p-1">Secured Payment Gateways</a>
+            </div>
+        </div>
+
+        <div class="flex-center bg-gray-200 text-gray-950 pt-1 pb-10">
+            <p class="text-center mt-10 opacity-50">Copyright &copy;" 2025, Tech2 - HTML CSS Ecommerce Template</p>
+        </div>
+       
+    </footer>
+    <script src="index.js"></script>      
+</body>
+    
+</html>
